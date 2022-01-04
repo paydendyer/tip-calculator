@@ -76,3 +76,15 @@ input {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 10px;
 }
+.bill-input {
+  background-image: url(images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  background-position: 3px;
+}
+#num-people {
+  background-image: url(images/icon-person.svg);
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  background-position: 3px; 
+}
