@@ -34,12 +34,19 @@ body {
 }
 input {
   font-size: 24px;
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
 }
 .white-bold {
   color: white;
+  font-size: 14px;
 }
-.grey-light {
-  color: lightgray;
+.per-person {
+  color: hsl(186, 14%, 43%);
+  font-size: 12px;
 }
 #custom {
 	width: 100%;
@@ -47,9 +54,10 @@ input {
 	text-align: center;
 	font-weight: 700;
 	background-color: hsl(189, 41%, 97%);
+  font-size: 20px;
 }
 .tip-btn {
-	padding: 5px 15px;
+	padding: 5px 10px;
 	border: none;
 	border-radius: 5px;
 	background-color: hsl(183, 100%, 15%);
@@ -57,11 +65,11 @@ input {
 	cursor: pointer;
 	text-align: center;
 	font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   font-family: space-mono, mono;
 }
 .box1 p {
-	color: hsl(186, 14%, 43%) ;
+	color: hsl(186, 14%, 43%);
 	font-size: 14px;
   font-weight: bold;
 }
@@ -69,7 +77,7 @@ input {
 	margin-bottom: 10px;
 }
 #bill, #select-tip {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 #btns {
 	display: grid;
@@ -79,12 +87,30 @@ input {
 .bill-input {
   background-image: url(images/icon-dollar.svg);
   background-repeat: no-repeat;
-  text-indent: 20px;
+  text-align: right;
   background-position: 3px;
 }
 #num-people {
   background-image: url(images/icon-person.svg);
   background-repeat: no-repeat;
-  text-indent: 20px;
   background-position: 3px; 
+  text-align: right;
+}
+::placeholder {
+  font-family: space-mono, mono;
+}
+#total-value, #tip-amount-value {
+  color: hsl(172, 67%, 45%);
+	font-size: 38px;
+  font-weight: 550;
+}
+.tip-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#tips-amount-section {
+  margin-bottom: 30px;
 }
