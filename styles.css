@@ -1,0 +1,78 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+  font-family: space-mono, mono;
+  background-color: hsl(185, 41%, 84%);
+  font-size: 16px;
+}
+#tip-calc {
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 50%;
+	margin:  0 auto;
+	padding: 20px;
+}
+.box1 {
+  background-color: #fff;
+	padding: 20px 20px;
+	cursor: pointer;
+}
+.box2 {
+  border-radius: 10px;
+	background-color: hsl(183, 100%, 15%);
+	padding: 40px 20px;
+}
+.logo-header {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 30px;
+}
+input {
+  font-size: 24px;
+}
+.white-bold {
+  color: white;
+}
+.grey-light {
+  color: lightgray;
+}
+#custom {
+	width: 100%;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: 700;
+	background-color: hsl(189, 41%, 97%);
+}
+.tip-btn {
+	padding: 5px 15px;
+	border: none;
+	border-radius: 5px;
+	background-color: hsl(183, 100%, 15%);
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	font-weight: 700;
+  font-size: 24px;
+  font-family: space-mono, mono;
+}
+.box1 p {
+	color: hsl(186, 14%, 43%) ;
+	font-size: 14px;
+  font-weight: bold;
+}
+.box1-headings {
+	margin-bottom: 10px;
+}
+#bill, #select-tip {
+  margin-bottom: 10px;
+}
+#btns {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}

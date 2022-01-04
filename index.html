@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="https://use.typekit.net/bgc6tch.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+ <header class="logo-header">
+   <img class="logo" src="images/logo.svg" alt="logo">
+ </header>
+  <div id="tip-calc">
+    <div class="box1">
+    <div id="bill">
+      <p class="box1-headings"> Bill</p>
+      <img class="dollar-icon" src="images/icon-dollar.svg" alt="dollar icon">
+        <input id="bill" class="bill-input" type="text"  name="" placeholder="0" required >
+    </div>
+    <div id="select-tip">
+      <p class="box1-headings"> Select Tip %</p>
+      <div id="btns">
+        <button class="tip-btn" id="five">5%</button>
+        <button class="tip-btn" id="ten">10%</button>
+        <button class="tip-btn" id="fifteen">15%</button>
+        <button class="tip-btn" id="twenty-five">25%</button>
+        <button class="tip-btn" id="fifty">50%</button>
+        <input type="text" id="custom" placeholder="Custom">
+    </div>
+  </div>
+    <div id="people">
+    <p class="box1-headings"> Number of People </p>
+    <input type="number" id="num-people">
+  </div>
+  </div>
+  <div class="box2">
+<div id="tips">
+  <div id="tips-total">
+    <div id="tip">
+      <div class="tip-amount">
+        <span class="white-bold">Tip Amount</span> <span class="grey-light">/ person</span>
+      </div>
+      <div class="total">
+        <span class="white-bold">Total Amount</span> <span class="grey-light">/ person</span>
+      </div>
+    </div>
+ 
+<div>
+  <div id="tip-amount-value" class="value">$0.00</div>
+  <div id="total-value" class="value">$0.00</div>
+ </div>
+</div>
+</div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
