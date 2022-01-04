@@ -114,3 +114,22 @@ input {
 #tips-amount-section {
   margin-bottom: 30px;
 }
+.btn-reset {
+	padding: 10px;
+	font-weight: 700;
+	width: 90%;
+	text-transform: uppercase;
+	color: hsl(183, 100%, 15%);
+	border: none;
+	margin-left: 5%;
+	margin-top: 90px;
+	border-radius: 5px;
+	background-color: hsl(172, 67%, 45%);
+	cursor: pointer;
+	opacity: 0.2;
+  font-family: space-mono, mono;
+  font-size: 16px;
+}
+.btn-reset:hover {
+	background-color: hsl(185, 41%, 84%);
+}
