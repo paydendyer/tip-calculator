@@ -84,7 +84,7 @@ input {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 10px;
 }
-.bill-input {
+.billInput {
   background-image: url(images/icon-dollar.svg);
   background-repeat: no-repeat;
   text-align: right;
@@ -132,4 +132,12 @@ input {
 }
 .btn-reset:hover {
 	background-color: hsl(185, 41%, 84%);
+}
+.error-msg {
+	font-size: 8px;
+	position: absolute;
+	top: 6px;
+	right: 30px;
+	color: red;
+	display: none;
 }
